@@ -8,7 +8,7 @@ setup(name='mistletoe',
       author='Mi Yu',
       author_email='hello@afteryu.me',
       license='MIT',
-      packages=['mistletoe'],
+      packages=['mistletoe', 'mistletoe_contrib'],
       entry_points={'console_scripts': ['mistletoe = mistletoe.__main__:main']},
       classifiers=[
           'Development Status :: 3 - Alpha',
